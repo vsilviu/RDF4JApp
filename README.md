@@ -12,5 +12,9 @@ Pentru extindere, se vor face urmatoarele:
   - este recomandat sa se creeze un Single Page Application, prin folosirea Angular
 - se vor adauga proprietati specifice Spring in src/main/resources/application.properties (optional)
 
+Pentru startup, se va executa Rdf4JAppApplication.java
+Aplicatia este client-server.
+Clientul este servit de server.
+
 Pentru a invata API-ul de RDF4J, se vor urma instructiunile de la http://docs.rdf4j.org/programming/
 Pentru introducere in metodologia RDF4J, se va citi http://docs.rdf4j.org/rdf-tutorial/
