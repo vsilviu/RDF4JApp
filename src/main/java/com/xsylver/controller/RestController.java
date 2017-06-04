@@ -13,8 +13,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/test")
 public class RestController {
 
-    @Autowired
     private Model bobModel;
+
+    @Autowired
+    public RestController(Model bobModel) {
+        this.bobModel = bobModel;
+    }
 
     @RequestMapping(method = RequestMethod.GET, value = "/1")
     public Object testing() {
